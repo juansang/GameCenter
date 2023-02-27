@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/menu_icon"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/home_menu_item"
+                android:icon="@drawable/ic_home"
+                android:title="HOME"
+                app:showAsAction="ifRoom">
+            </item>
+
+            <item
+                android:id="@+id/stats_menu_item"
+                android:icon="@drawable/ic_stats"
+                android:title="RANKING"
+                app:showAsAction="ifRoom">
+            </item>
+
+            <item
+                android:id="@+id/settings_menu_item"
+                android:icon="@drawable/ic_conf"
+                android:title="SETTINGS"
+                app:showAsAction="ifRoom">
+            </item>
+
+            <item
+                android:id="@+id/help_menu_item"
+                android:icon="@drawable/ic_help"
+                android:title="HELP"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+</menu>

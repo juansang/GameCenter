@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainLO">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/lightman"
+            android:gravity="center"
+            android:text="SWITCH ALL THE LIGHTS ON"
+            android:textColor="@color/one_zero_two_four"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_gravity="center"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:background="@drawable/timer_lo"
+            android:gravity="center"
+            android:text="00:00:00"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lightman"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/lights"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <RelativeLayout
+            android:id="@+id/firstLights"
+            android:layout_width="match_parent"
+            android:layout_height="400dp">
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/solLights"
+            android:layout_width="match_parent"
+            android:layout_height="400dp">
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/rest"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button_customlo"
+            android:text="RESTART"
+            android:textSize="10sp"
+            android:fontFamily="@font/lightman"
+            android:textColor="@color/white"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/hint"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button_customlo"
+            android:text="HINT"
+            android:textSize="11sp"
+            android:fontFamily="@font/lightman"
+            android:textColor="@color/white"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/new_game"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button_customlo"
+            android:text="NEW"
+            android:textSize="11sp"
+            android:fontFamily="@font/lightman"
+            android:textColor="@color/white"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/game_center"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/game_center"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GameCenter"
+        tools:targetApi="31">
+        <activity
+            android:label="GAME CENTER"
+            android:name=".Splash"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity  android:label="" android:name=".GameElection"/>
+        <activity  android:label="" android:name=".HomeLO"/>
+        <activity  android:label="" android:name=".PlayerNameLO"/>
+        <activity  android:label="" android:name=".BoardLO"/>
+        <activity android:label="PLAY GAME" android:name=".MainLO" />
+        <activity  android:label="RANKING" android:name=".RankLO"/>
+        <activity  android:label="SETTINGS" android:name=".Settings2048"/>
+        <activity  android:label="HELP" android:name=".HelpLO"/>
+
+        <activity  android:label="" android:name=".Home2048"/>
+        <activity  android:label="" android:name=".PlayerName2048"/>
+        <activity  android:label="" android:name=".Board2048"/>
+        <activity android:label="PLAY GAME" android:name=".Main2048" />
+        <activity  android:label="GAME OVER =(" android:name=".GameOver2048"/>
+        <activity  android:label="" android:name=".Win2048"/>
+        <activity  android:label="RANKING" android:name=".Rank2048"/>
+        <activity  android:label="SETTINGS" android:name=".SettingsLO"/>
+        <activity  android:label="HELP" android:name=".Help2048"/>
+
+    </application>
+
+
+</manifest>

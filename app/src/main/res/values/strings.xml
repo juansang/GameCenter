@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">GameCenter</string>
+    <string name="two">2</string>
+    <string name="four">4</string>
+    <string name="eight">8</string>
+    <string name="one_six">16</string>
+    <string name="three_two">32</string>
+    <string name="six_four">64</string>
+    <string name="one_two_eight">128</string>
+    <string name="two_five_six">256</string>
+    <string name="five_one_two">512</string>
+    <string name="one_zero_two_four">1024</string>
+    <string name="two_zero_four_eight">2048</string>
+    <string name="help1">
+        2048 is a puzzle game played on a grid.
+        The objective is to slide numbered tiles
+        around the grid, combining them to
+        create a tile with the number 2048.
+
+        You can slide the tiles up, down, left, or
+        right using the arrow keys on your
+        keyboard. When you move a tile, it will
+        slide as far as it can go in the direction
+        you choose, either stopping when it
+        reaches the edge of the grid or when it
+        hits another tile.
+
+        When two tiles with the same number
+        touch, they will merge into a single
+        tile with the sum of the two numbers.
+        The game ends when the grid is
+        completely filled with tiles and there
+        are no more moves left to make.
+
+        Good luck, and have fun playing 2048!</string>
+
+    <string name="help2">Lights Out is a puzzle game where the goal is to turn on all the lights on a grid of buttons.
+
+To start the game, the buttons on the grid are randomly turned on or off. Your objective is to turn off all the buttons, so that the entire grid is black. To do this, you click on the buttons to toggle them on or off.
+
+When you click on a button, it will toggle its own state, as well as the state of any adjacent buttons (up, down, left, and right).
+
+The game ends when you successfully turn on all the lights on the grid. However, the challenge is that turning on one light can turn others back off, and it can be difficult to determine the correct sequence of clicks to turn on all the lights.
+
+Good luck, and have fun playing Lights Out!
+    </string>
+</resources>

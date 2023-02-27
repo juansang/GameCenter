@@ -1,0 +1,15 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/word_title">
+    <TextView
+        android:id="@+id/stats"
+        style="@style/word_title"
+        android:textSize="15sp"
+        android:text="PLAYER"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:fontFamily="@font/lightman"
+        android:background="@drawable/lo_back"
+        android:textColor="@color/black"/>
+</LinearLayout>

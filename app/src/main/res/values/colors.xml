@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="yellow">#C5B42B</color>
+    <color name="dark_yellow">#433D0D</color>
+    <color name="black">#FF000000</color>
+    <color name="red">#870909</color>
+    <color name="white">#FFFFFF</color>
+    <color name="back">#8A867B</color>
+    <color name="num">#BFBCB1</color>
+    <color name="action">#FF607D8A</color>
+    <color name="trans">#00000000</color>
+
+    <color name="two">#E6E1CE</color>
+    <color name="four">#BCB28F</color>
+    <color name="eight">#C38F44</color>
+    <color name="one_six">#DD8503</color>
+    <color name="three_two">#DC7554</color>
+    <color name="six_four">#D13C0D</color>
+    <color name="one_two_eight">#706401</color>
+    <color name="two_five_six">#AA9905</color>
+    <color name="five_one_two">#CFBA00</color>
+    <color name="one_zero_two_four">#F1D800</color>
+    <color name="two_zero_four_eight">#673AB7</color>
+
+    <color name="dark_gray">#42413E</color>
+
+
+    <color name="yellowLO">#F4DC05</color>
+    <color name="dark_yellowLO">#998B0E</color>
+    <color name="redLO">#9C0F05</color>
+    <color name="greyLO">#8E8888</color>
+    <color name="titleLO">#CFDB0B</color>
+
+</resources>

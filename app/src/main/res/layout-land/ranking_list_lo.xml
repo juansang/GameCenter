@@ -1,0 +1,11 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/word_title">
+    <TextView
+        android:id="@+id/stats"
+        style="@style/word_title"
+        android:textSize="8sp"
+        android:text="PLAYER"
+        android:fontFamily="@font/lightman"
+        android:textColor="@color/white"/>
+</LinearLayout>

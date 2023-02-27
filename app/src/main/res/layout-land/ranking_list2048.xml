@@ -1,0 +1,18 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/word_title">
+    <TextView
+        android:id="@+id/stats"
+        style="@style/word_title"
+        android:textSize="25sp"
+        android:text="PLAYER"
+        android:textAlignment="center"
+        android:textColor="@color/yellow"
+        android:shadowColor="@color/black"
+        android:shadowDx="4"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:background="@drawable/rank_back"
+        android:fontFamily="@font/america"
+        android:gravity="center"/>
+</LinearLayout>

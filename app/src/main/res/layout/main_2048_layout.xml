@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2048">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp">
+
+            <TextView
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/america"
+                android:text="2048"
+                android:textSize="95sp"
+                android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="74dp"
+                    android:gravity="center"
+                    android:background="@color/yellow"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SCORE"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="23sp"
+                        android:fontFamily="@font/america"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:id="@+id/score"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="40sp"
+                        android:fontFamily="@font/america"
+                        tools:ignore="TextContrastCheck" />
+
+                </LinearLayout>
+
+                <!--<LinearLayout
+                    android:layout_width="85dp"
+                    android:layout_height="74dp"
+                    android:background="@color/yellow"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BEST"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        android:fontFamily="@font/america"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/america"
+                        tools:ignore="TextContrastCheck" />
+
+                </LinearLayout>-->
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_gravity="center"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:background="@drawable/timer"
+            android:gravity="center"
+            android:text="00:00:00"
+            android:textAlignment="center"
+            android:textSize="27sp"
+            android:fontFamily="@font/america" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/moveBack"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="top"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="@color/button_custom2048"
+                android:text="MOVE BACK"
+                android:textSize="25sp"
+                android:fontFamily="@font/america" />
+
+            <Button
+                android:id="@+id/new_game"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_gravity="top"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_custom2048"
+                android:text="NEW GAME"
+                android:textSize="25sp"
+                android:fontFamily="@font/america" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="446dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="60dp"
+        android:layout_weight="5"
+        android:background="@color/back"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+    </LinearLayout>
+</LinearLayout>

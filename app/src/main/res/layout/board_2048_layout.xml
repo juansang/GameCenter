@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/yellow"
+    tools:context=".Home2048"
+    android:gravity="center">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT BOARD SIZE"
+        android:layout_gravity="center"
+        android:textColor="@color/one_two_eight"
+        android:textSize="50sp"
+        android:fontFamily="@font/america"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/three"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:textColor="@color/yellow"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/america"
+            android:backgroundTint="@color/dark_yellow"
+            android:text="3x3"/>
+
+        <Button
+            android:id="@+id/four"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:textColor="@color/yellow"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/america"
+            android:backgroundTint="@color/dark_yellow"
+            android:layout_marginLeft="20dp"
+            android:text="4x4"/>
+
+        <Button
+            android:id="@+id/five"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:textColor="@color/yellow"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/america"
+            android:backgroundTint="@color/dark_yellow"
+            android:layout_marginTop="10dp"
+            android:text="5x5"/>
+
+        <Button
+            android:id="@+id/six"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:textColor="@color/yellow"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/america"
+            android:backgroundTint="@color/dark_yellow"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="6x6"/>
+    </GridLayout>
+
+</LinearLayout>
